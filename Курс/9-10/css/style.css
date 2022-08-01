@@ -1,0 +1,79 @@
+.box {
+    font-size: 30px;
+
+    /* Задає відступ дял 1 стрічки в параграфі */
+    text-indent: 20px;
+
+    /* Тінь тексту */
+    text-shadow: 2px 2px 8px black;
+
+    /* Градієнт */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b7f3a1+0,9142e5+50,f41637+51,9bef7f+100 */
+    background: #b7f3a1;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #b7f3a1 0%, #9142e5 50%, #f41637 51%, #9bef7f 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #b7f3a1 0%, #9142e5 50%, #f41637 51%, #9bef7f 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #b7f3a1 0%, #9142e5 50%, #f41637 51%, #9bef7f 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b7f3a1', endColorstr='#9bef7f', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+    /* Для тексту */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.box-2 {
+    background-color: #f41637;
+
+    /* Центрування блоків */
+    width: 50%;
+    position: relative;
+    height: 5000px;
+
+    /* Для відцентрування блоків - margin: 0 auto; */
+    margin: 0 auto;
+
+    /* position: relative;
+    position: fixed;
+    position: absolute;
+    position: static;
+     */
+}
+
+.pos-abs {
+    position: absolute;
+    /* top: 20%;
+    left: 300px; */
+    right: 20px;
+    bottom: 20px;
+
+
+    width: 300px;
+    height: 900px;
+    background-color: aqua;
+    z-index: 10;
+
+}
+
+/* Фіксована позиція */
+.pos-fix {
+    background-color: yellow;
+    color: thistle;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+
+    /* Щоб вказати по центру */
+    left: 50%;
+
+    /* Компенсуєм ширину блоку(половина ширини блоку) */
+    margin-left: -250px;
+    z-index: 9;
+
+
+
+}

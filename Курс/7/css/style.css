@@ -1,0 +1,72 @@
+ol {
+    height: 500px;
+    /* Колір тексту */
+    color: chartreuse;
+
+    /* Колір фону */
+    background-color: blueviolet;
+
+    /* Зоображення фону */
+    background-image: url('../images/Fon.jfif');
+
+    /* Позиція фону */
+    background-position: 50% 50%;
+
+    /* Повторення фона*/
+    /* repeat */
+    background-repeat: no-repeat;
+
+    /* Розмір фону */
+    /* cover,contain */
+    background-size: 50% auto;
+
+    /* Розмір тексту */
+    font-size: 30px;
+
+    /* вид шрифту */
+    font-family: Arial, Tahoma, sans-serif;
+
+    /* Товщина шрифта */
+    font-weight: bold;
+}
+
+ul {
+    /* Позиція тексту по х (lefr, center, right)*/
+    text-align: center;
+
+    /* Висота стрічки */
+    line-height: 30px;
+
+    /* Відстань між символами */
+    letter-spacing: 5px;
+
+    /* Відстань між словами */
+    word-spacing: 30px;
+
+    /* Трансформація тексту */
+    text-transform: uppercase;
+
+    /* Границі */
+
+    /* Ширина */
+    border-width: 10px;
+
+    /* Колір */
+    border-color: chocolate;
+
+    /* Стиль границі */
+    border-style: dotted;
+
+    /* Зовнішній відступ */
+    /* margin: Верх право низ ліво */
+    margin: 100px 0 0 0;
+
+    /* Внутрішній відступ */
+    /* padding: Верх право низ ліво */
+    padding: 30px 0px 30px 0px;
+
+    /* Ширина і висота блока */
+    width: 50%;
+    height: 200px;
+
+}

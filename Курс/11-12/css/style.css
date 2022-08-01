@@ -1,0 +1,42 @@
+.box-1,
+.box-2 {
+    width: 500px;
+    height: 500px;
+}
+
+/* https: //www.colorzilla.com/gradient-editor/ */
+.box-1 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d8ae13+7,d8ae13+7,ad700f+41,dfed44+52,eae59d+53,f2ec46+56,dfed44+61,e6efa0+70,f2ec46+99,9bef7f+100 */
+    background: #d8ae13;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #d8ae13 7%, #d8ae13 7%, #ad700f 41%, #dfed44 52%, #eae59d 53%, #f2ec46 56%, #dfed44 61%, #e6efa0 70%, #f2ec46 99%, #9bef7f 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #d8ae13 7%, #d8ae13 7%, #ad700f 41%, #dfed44 52%, #eae59d 53%, #f2ec46 56%, #dfed44 61%, #e6efa0 70%, #f2ec46 99%, #9bef7f 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #d8ae13 7%, #d8ae13 7%, #ad700f 41%, #dfed44 52%, #eae59d 53%, #f2ec46 56%, #dfed44 61%, #e6efa0 70%, #f2ec46 99%, #9bef7f 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8ae13', endColorstr='#9bef7f', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.box-2 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2a053d+22,2a053d+22,b7f3a1+53,6eec44+56,6eec44+56,b7f3a1+70,9bef7f+100 */
+    background: #2a053d;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #2a053d 22%, #2a053d 22%, #b7f3a1 53%, #6eec44 56%, #6eec44 56%, #b7f3a1 70%, #9bef7f 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #2a053d 22%, #2a053d 22%, #b7f3a1 53%, #6eec44 56%, #6eec44 56%, #b7f3a1 70%, #9bef7f 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #2a053d 22%, #2a053d 22%, #b7f3a1 53%, #6eec44 56%, #6eec44 56%, #b7f3a1 70%, #9bef7f 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2a053d', endColorstr='#9bef7f', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+    /* анімація в css */
+    transition: all ease 500ms;
+}
+
+/* Також анімація */
+.box-2:hover {
+    width: 750px;
+}

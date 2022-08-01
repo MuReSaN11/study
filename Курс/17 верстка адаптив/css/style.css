@@ -1,0 +1,47 @@
+.naw-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.naw-list li {
+    margin: 0 10px;
+
+}
+
+@media only screen and (max-width:767.98px) {
+    .naw-list {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100%;
+        background-color: aqua;
+        transition: all ease 500ms;
+
+    }
+
+    .naw-list li {
+
+        padding: 10px 0;
+
+        border-bottom: 2px solid darkred;
+    }
+
+    .naw-list a {
+        text-decoration: none;
+    }
+}
+
+.showNav .naw-list {
+    right: 100px;
+}
+
+/* @media only screen and (max-width:767.98px) {
+    .showNav {}
+} */

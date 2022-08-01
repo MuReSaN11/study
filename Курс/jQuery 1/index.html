@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="X-UA-Compatible">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery1</title>
+    <link rel="stylesheet" href="css/style.css" </head>
+
+
+<body>
+    <!-- Список определений -->
+    <dl class="faq">
+        <dt>Lorem ipsum dolor sit amet </dt>
+        <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem inventore magnam cupiditate architecto
+            magni assumenda sed. Doloremque necessitatibus doloribus, hic, omnis saepe cumque facere eligendi illum at
+            tempore quos magni.</dd>
+        <dt>Lorem ipsum dolor sit amet </dt>
+        <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem inventore magnam cupiditate architecto
+            magni
+            assumenda sed. Doloremque necessitatibus doloribus, hic, omnis saepe cumque facere eligendi illum at tempore
+            quos
+            magni.</dd>
+        <dt>Lorem ipsum dolor sit amet </dt>
+        <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem inventore magnam cupiditate architecto
+            magni
+            assumenda sed. Doloremque necessitatibus doloribus, hic, omnis saepe cumque facere eligendi illum at tempore
+            quos
+            magni.</dd>
+    </dl>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".faq dt").on('click', function () {
+                $(this).next('.faq dd').slideToggle();
+            })
+
+        });
+    </script>
+
+
+</body>
+
+</html>

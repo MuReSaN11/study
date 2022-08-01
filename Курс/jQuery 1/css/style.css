@@ -1,0 +1,26 @@
+.faq {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-color: brown;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+}
+
+.faq dd {
+    display: none;
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.faq dt {
+    margin-top: 15px;
+    /* якщо елемент клікабельний заміна курсора */
+    cursor: pointer;
+    border-top-color: brown;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 10px;
+}

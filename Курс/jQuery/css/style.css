@@ -1,0 +1,12 @@
+.test {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    transition: all ease 500ms;
+}
+
+.test.active {
+    height: 400px;
+    width: 300px;
+    background-color: blueviolet;
+}
